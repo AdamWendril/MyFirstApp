@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-image: url(../images/fundo_matrix.jpg);
+}
+
+.bottom-div {
+    position: relative;
+    top: 30px;
+}
+
+.shadow {
+    text-shadow: lightseagreen 3px 3px;
+}
+
+.margin-text {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: lightseagreen;
+}

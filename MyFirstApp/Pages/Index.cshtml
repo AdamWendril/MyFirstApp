@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Página Inicial";
+}
+<div class="row text-center">
+    <div class="col-xs-12 col-sm-12">
+        <div class="form-group">
+            <asp:Label ID="lblLinkVideo" AssociatedControlID="iframeVideo" Text="Vídeo de Divulgação:" runat="server" /><br />
+            <iframe id="iframeVideo" runat="server" visible="true" width="560" height="315" src="https://www.youtube.com/embed/Yw6u6YkTgQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<div class="text-center bottom-div">
+    <h1 class="display-4 text-light shadow">Bem Vindo</h1>
+    <p class="text-light margin-text">Meu Linkedin <a href="https://www.linkedin.com/in/wendril-adam-aaa414169/">Linkedin/Wendril.Adam</a>.</p>
+</div>
+
